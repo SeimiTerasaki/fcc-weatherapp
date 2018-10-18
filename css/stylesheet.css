@@ -1,0 +1,109 @@
+@import 'https://fonts.googleapis.com/css?family=Rubik+One';
+
+@import 'https://fonts.googleapis.com/css?family=Alegreya+SC';
+
+
+@media screen and (max-width: 650px){
+  .container .jumbotron{ 
+    height: 300px;
+  }
+  
+  p{
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .container .jumbotron{ 
+    height: 250px;
+  }
+  
+  .btn{
+    height: 30px;
+
+  }
+  
+  #location{
+  margin:-10px;
+}
+}
+
+
+body{
+  background-size:cover;
+}
+
+h1{
+  margin: 70px;
+  color: #fff;
+  font-family:'Rubik One';
+  letter-spacing: .05em;
+  font-size: 50px;
+    
+}
+
+.container .jumbotron{ 
+  margin: 50px auto 50px auto;
+  width: 50%;
+  border-radius: 50%;
+  background-color:rgba(255, 255, 255, 0.6);
+  
+}
+
+div.container.text-center{
+  padding: 30px;
+}
+
+.input-group {
+    position: relative;
+    width: 20%;
+    display: table;
+    border-collapse: separate;
+    height: auto;
+}
+
+.jumbotron p{
+  margin-bottom: 1vmax;
+  color: black;
+  font-family: 'Alegreya SC', serif;
+  font-size: 1.8vmax;
+}
+
+#location{
+  font-size: 2vmax;
+}
+
+#type{
+  text-transform: capitalize;
+}
+
+.btn{
+  padding: 1vmax;
+  color: black;
+  font-family: 'Alegreya SC', serif;
+  font-size: 1.8vmax;
+  background-color: #ddd;
+}
+  
+btn:hover{
+    background: #fff;
+    opacity: .2;
+}
+
+footer{
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 1rem;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  font-size: 1vmax;
+}
+
+#footer-p{
+  color: #fff;
+  font-family: 'Roboto Condensed',sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
